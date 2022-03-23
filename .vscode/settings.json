@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "LICENSE.txt": true,
+    "package.json": true
+  }
+}
