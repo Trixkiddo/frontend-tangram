@@ -13,11 +13,8 @@ function changeShape(e) {
   let whichShape = e.target;
   let shapeLiIndex = Array.prototype.indexOf.call(shapeNodeList, whichShape);
 
-  console.log("clicked shape: ", shapeArray[shapeLiIndex]);
-  console.log(lastestAddedClass !== shapeArray[shapeLiIndex]);
-
   if (shapeArray[shapeLiIndex] !== lastestAddedClass) {
-    
+
     if (square.classList.contains(lastestAddedClass)) {
       square.classList.remove(lastestAddedClass);
     }
@@ -28,9 +25,6 @@ function changeShape(e) {
     square.classList.remove(lastestAddedClass);
     lastestAddedClass = "";
   }
-
-  console.log(square.classList);
-  console.log(lastestAddedClass);
 }
 
 // console.log(shapeArray[shapeLiIndex]);
