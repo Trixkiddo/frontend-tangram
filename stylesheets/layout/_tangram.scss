@@ -6,10 +6,6 @@
   padding: 13% 0 0 0;
   display: flex;
   justify-content: center;
-
-  @media only screen and (max-width: 400px) {
-    padding: 20% 0 0 0;
-  }
 }
 
 .canvas {
@@ -18,19 +14,6 @@
   position: absolute;
   transition: transform 0.8s ease-in-out;
 
-  @media only screen and (max-width: 1240px) {
-    width: 30%;
-    height: 30%;
-  }
-  @media only screen and (max-width: 810px) {
-    width: 40%;
-    height: 40%;
-  }
-
-  @media only screen and (max-width: 400px) {
-    width: 60%;
-    height: 60%;
-  }
 }
 
 .big-triangle-1 {
