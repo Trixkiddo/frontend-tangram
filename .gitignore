@@ -6,3 +6,7 @@ main.css.map
 *.css.map
 *.sass.map
 *.scss.map
+
+.cache
+**.css.map
+**.css 

@@ -437,6 +437,7 @@ body {
 }
 
 nav ul {
+  padding: 0;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;

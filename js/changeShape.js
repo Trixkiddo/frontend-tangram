@@ -27,8 +27,4 @@ function changeShape(e) {
   }
 }
 
-// console.log(shapeArray[shapeLiIndex]);
-// console.log(square.classList);
 
-// let domtokenToArray = [...square.classList]
-// console.log(domtokenToArray)
