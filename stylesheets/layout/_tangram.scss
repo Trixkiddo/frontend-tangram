@@ -3,7 +3,7 @@
   margin-inline: auto;
   width: 80%;
   aspect-ratio: 1;
-  padding: 4% 0 0 0;
+  padding: 10% 0 0 0;
   display: flex;
   justify-content: center;
 }
@@ -12,7 +12,7 @@
     width: 25%;
     height: 25%;
     position: absolute;
-    translate: transform 5s ease-in-out;
+    transition: transform 0.8s ease-in-out;
 }
 
 .big-triangle-1 {

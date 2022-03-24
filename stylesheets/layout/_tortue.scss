@@ -10,10 +10,13 @@
   }
 
   .small-triangle-1 {
+    transform: translate(-44%, 15%) rotate(225deg);
   }
   .small-triangle-2 {
+    transform: translate(-44%, 150%) rotate(225deg);
   }
   .small-square {
+    transform: translate(65%, 125%) rotate(0deg);
   }
   .parallelogram {
     transform: translate(65.5%, 25.5%) rotate(360deg) scaleX(-1);

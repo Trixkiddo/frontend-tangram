@@ -436,12 +436,21 @@ body {
   width: 1px;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+nav ul li:hover {
+  cursor: pointer;
+}
+
 .container-general {
   position: relative;
   margin-inline: auto;
   width: 80%;
   aspect-ratio: 1;
-  padding: 4% 0 0 0;
+  padding: 10% 0 0 0;
   display: flex;
   justify-content: center;
 }
@@ -450,7 +459,7 @@ body {
   width: 25%;
   height: 25%;
   position: absolute;
-  translate: transform 5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .big-triangle-1 {
@@ -517,6 +526,28 @@ body {
   transform: translate(50%, 65%) rotate(-45deg);
 }
 
+.swan .big-triangle-1 {
+  transform: translate(-20%, 118%) rotate(135deg);
+}
+.swan .big-triangle-2 {
+  transform: translate(35%, 98%) rotate(180deg);
+}
+.swan .medium-triangle {
+  transform: translate(10%, 82%) rotate(225deg);
+}
+.swan .small-triangle-1 {
+  transform: translate(-1%, -15%) rotate(315deg);
+}
+.swan .small-triangle-2 {
+  transform: translate(-38%, 54%) rotate(179deg);
+}
+.swan .small-square {
+  transform: translate(-59%, -25%) rotate(0deg);
+}
+.swan .parallelogram {
+  transform: translate(-59%, -25%) rotate(0deg);
+}
+
 .tortue .big-triangle-1 {
   transform: translate(40%, 100%) rotate(0deg);
 }
@@ -525,6 +556,15 @@ body {
 }
 .tortue .medium-triangle {
   transform: translate(-20%, 160%) rotate(45deg);
+}
+.tortue .small-triangle-1 {
+  transform: translate(-44%, 15%) rotate(225deg);
+}
+.tortue .small-triangle-2 {
+  transform: translate(-44%, 150%) rotate(225deg);
+}
+.tortue .small-square {
+  transform: translate(65%, 125%) rotate(0deg);
 }
 .tortue .parallelogram {
   transform: translate(65.5%, 25.5%) rotate(360deg) scaleX(-1);
