@@ -439,6 +439,8 @@ body {
 nav ul {
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   justify-content: space-evenly;
   list-style-type: none;
 }
@@ -476,16 +478,39 @@ nav ul :nth-child(4) {
   margin-inline: auto;
   width: 80%;
   aspect-ratio: 1;
-  padding: 10% 0 0 0;
+  padding: 13% 0 0 0;
   display: flex;
   justify-content: center;
 }
+@media only screen and (max-width: 400px) {
+  .container-general {
+    padding: 20% 0 0 0;
+  }
+}
 
 .canvas {
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 20%;
   position: absolute;
   transition: transform 0.8s ease-in-out;
+}
+@media only screen and (max-width: 1240px) {
+  .canvas {
+    width: 30%;
+    height: 30%;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .canvas {
+    width: 40%;
+    height: 40%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .canvas {
+    width: 60%;
+    height: 60%;
+  }
 }
 
 .big-triangle-1 {

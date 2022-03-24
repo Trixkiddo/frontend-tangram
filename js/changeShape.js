@@ -30,3 +30,17 @@ function changeShape(e) {
     lastestAddedClass = "";
   }
 }
+
+
+
+// attempt to grab with innerHTML with :
+//   let whichShape = e.target.textContent.toLowerCase();
+//problem was :
+// need to setup particular button with a "hidden" text to grab class
+// as they can be called "whatever" and still be able to set correct button name.
+
+
+// let element = document.querySelectorAll('.myClass')
+//   element.forEach(item => {
+//     console.log(item.innerHTML = item.innerText || item.textContent)
+//   })
