@@ -19,7 +19,7 @@ function changeShape(e) {
       square.classList.remove(lastestAddedClass);
     }
 
-    square.classList.toggle(shapeArray[shapeLiIndex]);
+    square.classList.add(shapeArray[shapeLiIndex]);
     lastestAddedClass = shapeArray[shapeLiIndex];
   } else {
     square.classList.remove(lastestAddedClass);
