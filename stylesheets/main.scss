@@ -19,11 +19,17 @@
 
 // 4. Layout-related sections
 @import
-  'layout/header',
-  'layout/tangram',
+  'layout/arrow',
   'layout/lapin',
-  'layout/cat',
+  'layout/header',
+  'layout/navigation',
+  'layout/tangram',
+  'layout/sapin',
+  'layout/swan',
+  'layout/tortue',
+  'layout/pomme',
   'layout/footer';
+
 
 // 5. Components
 @import
