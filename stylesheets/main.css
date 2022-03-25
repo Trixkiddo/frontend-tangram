@@ -543,6 +543,29 @@ body {
   background-color: #5656b1;
 }
 
+<<<<<<< HEAD
+.dance .big-triangle-1 {
+  transform: translate(-50%, -23%) rotate(-90deg);
+}
+.dance .big-triangle-2 {
+  transform: translate(-38%, -10%) rotate(-180deg);
+}
+.dance .medium-triangle {
+  transform: translate(-50%, 77%) rotate(0deg);
+}
+.dance .small-triangle-1 {
+  transform: translate(-10%, 130%) rotate(40deg);
+}
+.dance .small-triangle-2 {
+  transform: translate(-155%, 50%) rotate(42deg);
+}
+.dance .small-square {
+  transform: translate(-40%, -60%) rotate(1deg);
+}
+.dance .parallelogram {
+  transform: translate(-64%, 62%) rotate(44deg) scaleX(-1);
+}/*# sourceMappingURL=main.css.map */
+=======
 .sapin .big-triangle-1 {
   -webkit-transform: translate(50%, 100%) rotate(135deg);
           transform: translate(50%, 100%) rotate(135deg);
@@ -683,3 +706,4 @@ body {
           transform: translate(15%, -6%) rotate(45deg);
 }
 /*# sourceMappingURL=main.css.map */
+>>>>>>> 179e38a509244937c613e0a902d0008ef3643de3
