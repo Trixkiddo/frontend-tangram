@@ -1,0 +1,28 @@
+.rabbit {
+    .big-triangle-1 {
+      transform: translate(35%, 50%) rotate(135deg);
+    }
+  
+    .big-triangle-2 {
+      transform: translate(105%, 50%) rotate(45deg);
+    }
+    .medium-triangle {
+      transform: translate(105%, 70%) rotate(180deg);
+    }
+  
+    .small-triangle-1 {
+      transform: translate(-13%, 80%) rotate(90deg);
+    }
+  
+    .small-triangle-2 {
+      transform: translate(55%, 120%) rotate(225deg);
+    }
+  
+    .small-square {
+        transform: translate(1%, 1%) rotate(45deg);
+    }
+  
+    .parallelogram {
+      transform: translate(62%, -9%) rotate(269deg);
+    }
+  }
