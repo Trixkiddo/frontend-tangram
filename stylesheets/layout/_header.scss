@@ -1,3 +1,48 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+
+header {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+header img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+header h2 {
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2::after {
+  content: "web";
+  font-size: 20px;
+  width: 100px;
+  height: 10px;
+  border: 2px solid black;
+  position: relative;
+  bottom: 31px;
+  left: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+@media (max-width: 640px) {
+  h2::after {
+  content: "tél";
+  font-size: 20px;
+  width: 100px;
+  height: 10px;
+  border: 2px solid black;
+  position: relative;
+  bottom: 30px;
+  left: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+}

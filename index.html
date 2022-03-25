@@ -20,9 +20,21 @@
 
 
   <meta name="theme-color" content="#fafafa">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 </head>
 
+<header>
+  <img src="tangramBandW.jpg" alt="tangram">
+  <h2>TANGRAM</h2>
+  <div class="dark-button">
+   <!-- <button class="dark" onclick="darkMode()">Dark Side</button> -->
+   <img class="dark" src="darkvador.svg" alt="icone Dark Vador" onclick="darkMode()">
+  </div>
+</header>
+
 <body>
+
+
 
   <!-- button & array(shapeArray) order need to be the same -->
   <nav class="shape-menu">
@@ -31,6 +43,12 @@
       <li class="js-get-shape">Sapin</li>
       <li class="js-get-shape">Cygne</li>
       <li class="js-get-shape">Tortue</li>
+      <li class="js-get-shape">Flèche</li>
+      <li class="js-get-shape">Danseur</li>
+      <li class="js-get-shape">Chat</li>
+      <li class="js-get-shape">Lapin</li>
+      <li class="js-get-shape">Danseur2</li>
+      <li class="js-get-shape">Abstrait</li>
     </ul>
   </nav>
 
@@ -46,7 +64,8 @@
     <div class="canvas small-square"></div>
   </section>
 
-  <script type="text/javascript" src="js/changeShape.js"></script>
+  <script src="js/changeShape.js"></script>
+  <script src="js/darkmode.js"></script>
 </body>
 
 </html>

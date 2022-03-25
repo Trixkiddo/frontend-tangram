@@ -1,1 +1,71 @@
 
+.shape-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  margin-bottom: -20px;
+  gap: 1rem;
+}
+
+.js-get-shape {
+  width: 150px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.js-get-shape:hover {
+  filter: brightness(1.4);
+}
+
+.js-get-shape:active {
+  transform: translateY(-3px);
+}
+
+ul :first-child {
+  background-color: $color-big-triangle-1;
+}
+
+ul :nth-child(2) {
+  background-color: $color-big-triangle-2;
+}
+
+ul :nth-child(3) {
+  background-color: $color-small-triangle-1;
+}
+
+ul :nth-child(4) {
+  background-color: $color-small-square;
+}
+
+ul :nth-child(5) {
+  background-color: $color-parallelogram;
+}
+
+ul :nth-child(6) {
+  background-color: $color-big-triangle-1;
+}
+
+ul :nth-child(7) {
+  background-color: $color-big-triangle-2;
+}
+
+ul :nth-child(8) {
+  background-color: $color-small-triangle-1;
+}
+
+ul :nth-child(9) {
+  background-color: $color-small-square;
+}
+
+ul :nth-child(10) {
+  background-color: $color-parallelogram;
+}

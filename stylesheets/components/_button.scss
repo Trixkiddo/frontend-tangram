@@ -1,3 +1,31 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
-// -----------------------------------------------------------------------------
+//
+@media (max-width: 640px) {
+  .dark-button {
+    display: none;
+  }
+}
+
+.dark-button {
+  position: relative;
+  left:77%;
+  top: 10%;
+  margin-top: 20px;
+
+}
+
+.dark-button img {
+  cursor: pointer;
+  background-color: white;
+  width: 55px;
+
+}
+
+.dark {
+  background-color: #222;
+}
+
+.dark:hover {
+  transform: translateY(-2px);
+}
